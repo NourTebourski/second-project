@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(196, 248, 255);
+}
+/* From Uiverse.io by ammarsaa */
 .container {
   max-width: 350px;
   background: #f8f9fd;
@@ -104,9 +108,7 @@
   justify-content: center;
   margin-top: 50px;
 }
-body {
-  background-color: rgb(196, 248, 255);
-}
+
 /* create accout form  */
 /* From Uiverse.io by ammarsaa */
 .form2 {
