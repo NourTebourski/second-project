@@ -44,7 +44,7 @@
             </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Search" />
+            <input class="form-control me-2" id="search-bar" type="text" placeholder="Search" />
             <button class="btn btn-primary" type="button">Search</button>
           </form>
         </div>
@@ -59,9 +59,10 @@
           <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">CATEGORY</button>
             <div id="myDropdown" class="dropdown-content">
-              <a>Men</a>
-              <a>Women</a>
-              <a>Kids</a>
+              <button id="menbtn">Men</button>
+              <button id="wombtn">Women</button>
+              <button id="kidbtn">Kids</button>
+              <button id="allbtn">Show all</button>
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@
           <span>0</span>
         </div>
       </header>
-      <!-- carts + shopping carts -->
+      <!-- carts  -->
       <div id="cards"></div>
 <script
       src="https://code.jquery.com/jquery-3.7.1.slim.js"
