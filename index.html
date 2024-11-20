@@ -13,11 +13,6 @@
     <title>JustRun</title>
   </head>
   <body>
-    <style>
-      body {
-        background-color: rgb(196, 248, 255);
-      }
-    </style>
     <!-- nav-bar imorted from bootstrap-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
@@ -33,7 +28,9 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Home</a>
+              <a class="nav-link" href="http://127.0.0.1:5500/index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="javascript:void(0)">About</a>
@@ -58,21 +55,21 @@
       <header>
         <div class="prodtitle">PRODUCT LIST</div>
         <!-- /* drop-dowon button from w3school */ -->
-    <div id="buttonfilter">
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Category</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a>Homme</a>
-          <a>Femme</a>
-          <a>Kids</a>
+        <div id="buttonfilter">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">CATEGORY</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a>Men</a>
+              <a>Women</a>
+              <a>Kids</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
         <div class="icon-cart">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="40"
+            height="40"
             viewBox="0 0 24 24"
           >
             <path
@@ -80,12 +77,16 @@
               d="M4 22V6h4q0-1.65 1.175-2.825T12 2t2.825 1.175T16 6h4v16zm6-16h4q0-.825-.587-1.412T12 4t-1.412.588T10 6m-2 5h2V8H8zm6 0h2V8h-2z"
             />
           </svg>
-
           <span>0</span>
         </div>
       </header>
-    </div>
-
+      <!-- carts + shopping carts -->
+      <div id="cards"></div>
+<script
+      src="https://code.jquery.com/jquery-3.7.1.slim.js"
+      integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+      crossorigin="anonymous"
+    ></script>
     <script src="/main.js"></script>
   </body>
 </html>
